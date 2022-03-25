@@ -12,4 +12,23 @@ class GatewayController extends CoreController
         $data['list'] =  IPTVGateway::where("active",1)->get();
         return view("IPTV::list_gateway",$data);
     }
+
+
+    public function active($gateway){
+
+        $gateway =  IPTVGateway::where("code",$gateway)->firstOrFail();
+        $gateway->active = true;
+        $gateway->save();
+
+        return redirect()->route('list_gateway');
+    }
+
+    public function inactive($gateway){
+
+        $gateway =  IPTVGateway::where("code",$gateway)->firstOrFail();
+        $gateway->active = false;
+        $gateway->save();
+
+        return redirect()->route('list_gateway');
+    }
 }

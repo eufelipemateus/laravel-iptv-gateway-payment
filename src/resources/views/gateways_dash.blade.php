@@ -1,6 +1,12 @@
 
 
 <div>
-<i class="fas fa-fw fa-server"></i>
-Payments
+    @foreach($list as $gateway)
+
+        <div>
+        {{ $gateway->name }}
+        </div>
+
+    @endforeach
+    <a href='{{ route("list_gateway") }}'>{{ __('Show All Gateways') }}</a>
 </div>

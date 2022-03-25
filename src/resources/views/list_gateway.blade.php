@@ -27,15 +27,17 @@
 							</div>
 
                             <div class="col-md-2">
-							@if( $gateway->active)	{{ __('Active') }}  @else   {{ __('Inactive') }}  @endif
+							@if( $gateway->active)	{{ __('Actived') }}  @else   {{ __('Inactived') }}  @endif
 							</div>
                             <!--
-							<div class="col-md-2">
-							  <a href=" route('show_customer',$customer->id) ">{{ __('edit') }}</a>
-							</div>
-							<div class="col-md-2">
-							  <a href="  route('delete_customer',$customer->id) }}">{{ __('delete')}}</a>
-							</div>-->
+                            <div class="col-md-2">
+                                @if( $gateway->active)
+                                    <a href="{{ route('inactive_gateway',['gateway'=>$gateway->code]) }} ">{{ __('Inactive') }}</a>
+                                @else
+                                    <a href="{{ route('active_gateway',['gateway'=>$gateway->code]) }} ">{{ __('Active') }}</a>
+
+                                @endif
+                            </div> -->
 						</div>
 					@endforeach
 

@@ -20,4 +20,22 @@ class IPTVGateway extends Model
 
     protected $table = "iptv_gateways_payments";
 
+
+      /**
+     * customer do invoce
+     *
+     *  @return realation
+     *
+    */
+    public function gateway(){
+
+        return $this->belongsToMany(
+            Trop::class,
+            'iptv_customer_invoce_gateway',
+            'iptv_customer_invoces_id',
+            'customer_invoce_gateway_id'
+        );
+    }
+
+
 }

@@ -6,6 +6,11 @@
             "name":"Gateways",
             "icon": "cash-register",
             "route": "list_gateway"
+        },
+        {
+            "name":"Tax VAT",
+            "icon": "hand-holding-usd",
+            "route": "list_tax"
         }
     ]
 }

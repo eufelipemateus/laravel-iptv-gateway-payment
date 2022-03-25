@@ -4,7 +4,7 @@ namespace FelipeMateus\IPTVGatewayPayment;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use FelipeMateus\IPTVCore\Class\IPTVProviderBase;
+use FelipeMateus\IPTVCore\Helpers\IPTVProviderBase;
 use FelipeMateus\IPTVGatewayPayment\Dashs\GatewayDash;
 
 class IPTVProvider extends IPTVProviderBase {
