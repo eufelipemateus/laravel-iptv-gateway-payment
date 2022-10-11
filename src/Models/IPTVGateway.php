@@ -1,6 +1,6 @@
 <?php
 
-namespace FelipeMateus\IPTVGatewayPayment\Models;
+namespace Tschope\IPTVGatewayPayment\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

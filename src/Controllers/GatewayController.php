@@ -1,10 +1,10 @@
 <?php
 
-namespace FelipeMateus\IPTVGatewayPayment\Controllers;
+namespace Tschope\IPTVGatewayPayment\Controllers;
 
 use Illuminate\Http\Request;
-use FelipeMateus\IPTVCore\Controllers\CoreController;
-use FelipeMateus\IPTVGatewayPayment\Models\IPTVGateway;
+use Tschope\IPTVCore\Controllers\CoreController;
+use Tschope\IPTVGatewayPayment\Models\IPTVGateway;
 
 class GatewayController extends CoreController
 {
