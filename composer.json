@@ -1,18 +1,19 @@
 {
     "name": "felipemateus/laravel-iptv-gateway-payment",
     "description": "Laravel IPTV Gateway Payment",
-    "version": "0.0.1",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Felipe Mateus",
-            "email": "eu@felipemateus.com"
+            "email": "eu@felipemateus.com",
+            "homepage": "https://felipemateus.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^8.0|^8.1"
     },
     "autoload": {
         "psr-4": {
