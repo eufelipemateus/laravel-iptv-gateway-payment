@@ -1,11 +1,11 @@
 <?php
 
-namespace  Tschope\IPTVGatewayPayment\Controllers;
+namespace  FelipeMateus\IPTVGatewayPayment\Controllers;
 
 use Illuminate\Http\Request;
-use Tschope\IPTVCore\Controllers\CoreController;
-use Tschope\IPTVGatewayPayment\Models\IPTVTaxVat;
-use Tschope\IPTVGatewayPayment\Requests\TaxVatRequest;
+use FelipeMateus\IPTVCore\Controllers\CoreController;
+use FelipeMateus\IPTVGatewayPayment\Models\IPTVTaxVat;
+use FelipeMateus\IPTVGatewayPayment\Requests\TaxVatRequest;
 
 class TaxVatController extends CoreController
 {

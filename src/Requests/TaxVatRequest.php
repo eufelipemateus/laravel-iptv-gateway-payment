@@ -1,6 +1,6 @@
 <?php
 
-namespace Tschope\IPTVGatewayPayment\Requests;
+namespace FelipeMateus\IPTVGatewayPayment\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

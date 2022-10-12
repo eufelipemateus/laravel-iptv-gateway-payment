@@ -1,9 +1,9 @@
 <?php
 
-namespace Tschope\IPTVGatewayPayment\Dashs;
+namespace FelipeMateus\IPTVGatewayPayment\Dashs;
 
-use Tschope\IPTVCore\Helpers\IPTVDashBase;
-use Tschope\IPTVGatewayPayment\Models\IPTVGateway;
+use FelipeMateus\IPTVCore\Helpers\IPTVDashBase;
+use FelipeMateus\IPTVGatewayPayment\Models\IPTVGateway;
 
 class GatewayDash extends IPTVDashBase {
     public static  $title = "Gateways Payment";

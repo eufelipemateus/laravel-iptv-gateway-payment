@@ -1,11 +1,11 @@
 <?php
 
-namespace Tschope\IPTVGatewayPayment;
+namespace FelipeMateus\IPTVGatewayPayment;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Tschope\IPTVCore\Helpers\IPTVProviderBase;
-use Tschope\IPTVGatewayPayment\Dashs\GatewayDash;
+use FelipeMateus\IPTVCore\Helpers\IPTVProviderBase;
+use FelipeMateus\IPTVGatewayPayment\Dashs\GatewayDash;
 
 class IPTVProvider extends IPTVProviderBase {
 

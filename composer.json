@@ -1,5 +1,5 @@
 {
-    "name": "tschope/laravel-iptv-gateway-payment",
+    "name": "felipemateus/laravel-iptv-gateway-payment",
     "description": "Laravel IPTV Gateway Payment",
     "version": "1.0.0",
     "type": "library",
@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Tschope\\IPTVGatewayPayment\\":"src/"
+            "FelipeMateus\\IPTVGatewayPayment\\":"src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Tschope\\IPTVGatewayPayment\\IPTVProvider"
+                "FelipeMateus\\IPTVGatewayPayment\\IPTVProvider"
             ]
         }
     },
